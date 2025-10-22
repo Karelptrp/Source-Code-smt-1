@@ -10,7 +10,7 @@ list_nim = []
 for digit in nim:
     list_nim.append(int(digit))
 digit_terakhir = list_nim[-1]
-status = "Genap" if digit_terakhir % 2 == 0 else "Ganjil"
+status = "Genap" if digit_terakhir % 2 == 0 =else "Ganjil"
 def kalkulasi_nim(list_nim):
     total = sum(list_nim)
     hasil = total * list_nim[0]
